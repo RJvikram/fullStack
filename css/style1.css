@@ -1,0 +1,43 @@
+div#abc{
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+	border-top-right-radius: 200px;
+	border-bottom-left-radius: 200px;
+}
+
+div#mno{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	border-top-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+}
+
+div#pqr{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	border-bottom-right-radius: 200px;
+	border-top-left-radius: 200px;
+}
+
+div#xyz{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	border-bottom-left-radius: 200px;
+	border-top-right-radius: 200px;
+}
+
+div#abc,#mno{
+	display: inline-block;
+}
+
+div#pqr,#xyz{
+	display: inline-flex;
+}
+
+div.nev:hover{
+	background-color: darkgray !important;
+}
